@@ -16,3 +16,28 @@ Make sure you have Python installed. You will need to install the following libr
 
 ```bash
 pip install pandas bibtexparser
+```
+
+## 🛠️ How to Use
+
+1. Clone this repository or download the `conversor.py` script.
+2. Place all your `.bib` files inside a folder named `Bib_Files` (or adjust the `pasta_origem` variable in the script).
+3. Ensure your directory structure looks like this:
+
+```text
+├── conversor.py
+└── Bib_Files
+    ├── acm (1).bib
+    ├── acm (2).bib
+    └── ...
+```
+
+4. Run the script:
+```bash
+python conversor.py
+```
+
+5. The script will create a new folder called `dados_mapeamento` containing the individual CSVs and the final unified CSV.
+
+## 🤝 Contributing
+Contributions, issues, and feature requests are welcome! Feel free to check the issues page.
